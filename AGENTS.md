@@ -28,3 +28,7 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Project rules
+- Contact phone numbers and WhatsApp links live only in `src/lib/contatos.ts`; every CTA reads from there so a number change is a single edit.
+- Landing page is one scrolling page at `/` with in-page anchors (user asked for a single landing page).
