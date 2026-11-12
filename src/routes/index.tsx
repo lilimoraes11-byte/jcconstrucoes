@@ -131,7 +131,7 @@ function Hero() {
 function TrustBar() {
   return (
     <div className="relative z-10 mx-auto -mt-14 max-w-6xl px-5 lg:px-8">
-      <div className="grid grid-cols-2 gap-px overflow-hidden rounded-xl bg-border shadow-card lg:grid-cols-4">
+      <div className="grid grid-cols-1 gap-px overflow-hidden rounded-xl bg-border shadow-card sm:grid-cols-2 lg:grid-cols-4">
         {valores.map(({ icon: Icon, titulo, texto }) => (
           <div key={titulo} className="flex items-start gap-4 bg-card p-5 sm:p-6">
             <span className="grid h-11 w-11 shrink-0 place-items-center rounded-lg bg-secondary text-primary">
